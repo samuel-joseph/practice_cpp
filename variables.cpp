@@ -13,8 +13,6 @@ int main()
   myInt1 = 2;
   myInt2 = myInt + myInt1;
 
-  cout << myInt2 << endl;
-  cout << myDouble << endl;
-  cout << myName << endl;
+  cout << "Hello " << myName << endl;
   return 0;
 }
