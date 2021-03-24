@@ -17,8 +17,11 @@ int main()
 
   int a = 15;
   int b = 20;
+  bool areEqual = a == b;
+  int age = 28;
+  bool isLess = age >= 21;
 
-  cout << (a < b) << endl;
+  cout << isLess << endl;
 
   return 0;
 }
